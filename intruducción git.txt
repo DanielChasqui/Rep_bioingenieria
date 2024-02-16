@@ -1,0 +1,90 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Instale la versión más reciente de PowerShell para obtener nuevas características y mejoras. https://aka.ms/PSWindows
+
+PS C:\Users\danie\Documents\BioIngenieria\Git> git config --global user.name "DanielAlejandro"
+PS C:\Users\danie\Documents\BioIngenieria\Git> git config --global user.email "cvdaniel@unicauca.edu.co"
+PS C:\Users\danie\Documents\BioIngenieria\Git> git init
+Initialized empty Git repository in C:/Users/danie/Documents/BioIngenieria/Git/.git/
+PS C:\Users\danie\Documents\BioIngenieria\Git> code
+code : El término 'code' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ code
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (code:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\danie\Documents\BioIngenieria\Git> git add "Hola mundo.txt"
+PS C:\Users\danie\Documents\BioIngenieria\Git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Hola mundo.txt
+
+PS C:\Users\danie\Documents\BioIngenieria\Git>
+PS C:\Users\danie\Documents\BioIngenieria\Git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Hola mundo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Chao.txt
+
+PS C:\Users\danie\Documents\BioIngenieria\Git> git add .
+PS C:\Users\danie\Documents\BioIngenieria\Git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Chao.txt
+        new file:   Hola mundo.txt
+
+PS C:\Users\danie\Documents\BioIngenieria\Git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Chao.txt
+        new file:   Hola mundo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ole.docx
+
+PS C:\Users\danie\Documents\BioIngenieria\Git> add .
+add : El término 'add' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ add .
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (add:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\danie\Documents\BioIngenieria\Git> git add .
+PS C:\Users\danie\Documents\BioIngenieria\Git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Chao.txt
+        new file:   Hola mundo.txt
+        new file:   ole.docx
+
+PS C:\Users\danie\Documents\BioIngenieria\Git>
